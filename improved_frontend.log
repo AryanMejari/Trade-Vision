@@ -1,0 +1,8 @@
+2025-03-04 18:07:02,639 - __main__ - ERROR - API health check error: HTTPConnectionPool(host='127.0.0.1', port=5000): Read timed out. (read timeout=5)
+2025-03-04 18:30:28,520 - __main__ - ERROR - Symbols fetch error: 404 Client Error: NOT FOUND for url: http://127.0.0.1:5000/api/csv/equities.csv?country=United%20States
+2025-03-04 22:09:08,307 - __main__ - ERROR - API health check error: HTTPConnectionPool(host='127.0.0.1', port=5000): Read timed out. (read timeout=5)
+2025-03-04 22:09:19,826 - __main__ - ERROR - API health check error: HTTPConnectionPool(host='127.0.0.1', port=5000): Read timed out. (read timeout=5)
+2025-03-04 22:12:46,433 - __main__ - ERROR - API health check error: HTTPConnectionPool(host='127.0.0.1', port=5000): Read timed out. (read timeout=5)
+2025-03-04 22:12:57,264 - __main__ - ERROR - API health check error: HTTPConnectionPool(host='127.0.0.1', port=5000): Read timed out. (read timeout=5)
+2025-03-04 22:14:42,799 - __main__ - ERROR - API health check error: HTTPConnectionPool(host='127.0.0.1', port=5000): Read timed out. (read timeout=5)
+2025-03-04 22:14:52,835 - __main__ - ERROR - API health check error: HTTPConnectionPool(host='127.0.0.1', port=5000): Read timed out. (read timeout=5)

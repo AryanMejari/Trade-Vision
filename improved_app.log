@@ -1,0 +1,1081 @@
+2025-03-04 18:04:38,008 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:04:38,013 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:04:38,878 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:04:38,968 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:04:39,379 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:04:39,498 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:04:39,501 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:04:39,501 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:04:39,540 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:04:39,540 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 18:04:39,564 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 18:04:51,357 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:04:51,359 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:04:52,054 - __main__ - INFO - Loaded equities.csv with 53602 rows.
+2025-03-04 18:04:52,240 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:04:52,863 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:04:52,992 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:04:53,003 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:04:53,003 - __main__ - INFO - CSV download completed.
+2025-03-04 18:04:57,912 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:04:57,930 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:04:58,848 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:04:58,952 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:04:59,387 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:04:59,483 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:04:59,491 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:04:59,493 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:04:59,506 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 18:04:59,510 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 18:05:07,398 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:05:07,412 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:05:08,702 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:05:08,857 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:05:09,528 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:05:09,708 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:05:09,768 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:05:09,769 - __main__ - INFO - CSV download completed.
+2025-03-04 18:05:19,010 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:19] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:05:19,072 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:19] "GET /api/countries HTTP/1.1" 200 -
+2025-03-04 18:05:19,128 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:19] "GET /api/csv/cryptos.csv HTTP/1.1" 200 -
+2025-03-04 18:05:24,508 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:24] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:05:24,542 - __main__ - INFO - Fetching data for AAVE-CAD
+2025-03-04 18:05:28,936 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:28] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:05:31,163 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:31] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:05:43,736 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:43] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:05:43,783 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:43] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:05:43,878 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:43] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:05:53,914 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:53] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:05:53,955 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:53] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:05:54,033 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:05:54] "POST /api/optimize_portfolio HTTP/1.1" 200 -
+2025-03-04 18:06:24,138 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:06:24] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:06:24,172 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:06:24] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:06:24,653 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:06:24] "POST /api/personal_advice HTTP/1.1" 200 -
+2025-03-04 18:06:45,481 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:06:45] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:06:45,510 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:06:45] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:06:45,575 - __main__ - INFO - Fetching data for AAVE-CAD
+2025-03-04 18:06:45,683 - __main__ - ERROR - Anomaly detection error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 517, in anomaly_detection
+    return jsonify(anomalies)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-03-04 18:06:45,708 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\json\\provider.py', reloading
+2025-03-04 18:06:45,764 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:06:45] "[35m[1mPOST /api/anomaly_detection HTTP/1.1[0m" 500 -
+2025-03-04 18:06:46,400 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 18:07:06,550 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:07:06,561 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:07:08,378 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:07:08,565 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:07:09,249 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:07:09,442 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:07:09,446 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:07:09,448 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:07:09,465 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 18:07:09,470 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 18:07:09,509 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:07:09] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:07:22,487 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:07:22,497 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:07:24,323 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:07:24,526 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:07:25,390 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:07:25,598 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:07:25,605 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:07:25,607 - __main__ - INFO - CSV download completed.
+2025-03-04 18:08:21,612 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:08:21] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:08:24,431 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:08:24] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:08:24,454 - __main__ - INFO - Fetching data for AAVE-CAD
+2025-03-04 18:08:26,712 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:08:26] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:08:27,738 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:08:27] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:08:32,246 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:08:32] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:08:32,276 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:08:32] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:08:54,192 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\plotly\\__init__.py', reloading
+2025-03-04 18:08:54,230 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\plotly\\graph_objs\\__init__.py', reloading
+2025-03-04 18:08:54,376 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\plotly\\graph_objs\\_figure.py', reloading
+2025-03-04 18:08:54,540 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\plotly\\basedatatypes.py', reloading
+2025-03-04 18:08:54,633 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\plotly\\io\\__init__.py', reloading
+2025-03-04 18:08:54,690 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\plotly\\io\\_html.py', reloading
+2025-03-04 18:08:54,807 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\posixpath.py', reloading
+2025-03-04 18:08:54,842 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\ntpath.py', reloading
+2025-03-04 18:08:54,967 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\config.py', reloading
+2025-03-04 18:08:55,852 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 18:09:12,901 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:09:12,912 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:09:14,836 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:09:15,074 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:09:15,886 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:09:16,042 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:09:16,048 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:09:16,050 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:09:16,085 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 18:09:16,098 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 18:09:35,847 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:09:35,857 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:09:37,688 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:09:37,872 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:09:38,721 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:09:38,903 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:09:38,908 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:09:38,908 - __main__ - INFO - CSV download completed.
+2025-03-04 18:23:15,505 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:23:15,510 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:23:16,561 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:23:16,683 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:23:17,387 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:23:17,542 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:23:17,547 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:23:17,549 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:23:17,598 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:23:17,598 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 18:23:17,641 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 18:23:39,048 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:23:39,062 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:23:41,885 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:23:42,179 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:23:43,245 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:23:43,504 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:23:43,515 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:23:43,519 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:23:43,552 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 18:23:43,562 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 18:23:43,645 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:23:43] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:23:43,703 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:23:43] "GET /api/countries HTTP/1.1" 200 -
+2025-03-04 18:23:48,543 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:23:48] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:23:48,573 - __main__ - INFO - Fetching data for AAVE-CAD
+2025-03-04 18:23:49,548 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:23:49,561 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:23:51,905 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:23:52,165 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:23:52,953 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:23:52] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:23:53,222 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:23:53,505 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:23:53,514 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:23:53,515 - __main__ - INFO - CSV download completed.
+2025-03-04 18:23:55,524 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:23:55] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:23:58,162 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:23:58] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:23:58,234 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:23:58] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:23:58,526 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:23:58] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:24:02,313 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:02] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:24:02,409 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:02] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:24:02,724 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:02] "POST /api/optimize_portfolio HTTP/1.1" 200 -
+2025-03-04 18:24:05,471 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:05] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:24:05,530 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:05] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:24:06,366 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:06] "POST /api/personal_advice HTTP/1.1" 200 -
+2025-03-04 18:24:08,064 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:24:08,071 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:24:08,825 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:08] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:24:08,996 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:08] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:24:09,165 - __main__ - INFO - Fetching data for AAVE-CAD
+2025-03-04 18:24:09,440 - __main__ - ERROR - Anomaly detection error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 517, in anomaly_detection
+    return jsonify(anomalies)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-03-04 18:24:09,521 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:09] "[35m[1mPOST /api/anomaly_detection HTTP/1.1[0m" 500 -
+2025-03-04 18:24:10,238 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:24:10,442 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:24:11,253 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:24:11,446 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:24:11,452 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:24:11,452 - __main__ - INFO - CSV download completed.
+2025-03-04 18:24:12,918 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:12] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:24:12,963 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:12] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:24:18,261 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:18] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:24:18,301 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:24:18] "GET /static/plots/AAVE-CAD_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:24:28,817 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\numpy\\__init__.py', reloading
+2025-03-04 18:24:30,132 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 18:24:57,435 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:24:57,448 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:24:59,914 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:25:00,237 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:25:01,454 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:25:01,708 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:25:01,715 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:25:01,717 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:25:01,758 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 18:25:01,765 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 18:25:19,783 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:25:19,793 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:25:22,075 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:25:22,344 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:25:23,498 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:25:23,739 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:25:23,748 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:25:23,749 - __main__ - INFO - CSV download completed.
+2025-03-04 18:28:14,382 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\OneDrive\\Desktop\\test2\\front.py', reloading
+2025-03-04 18:28:14,382 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\OneDrive\\Desktop\\test2\\front.py', reloading
+2025-03-04 18:28:14,747 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 18:28:30,954 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:28:30,962 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:28:32,419 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:28:32,555 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:28:33,143 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:28:33,309 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:28:33,315 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:28:33,318 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:28:33,339 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 18:28:33,346 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 18:28:44,365 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:28:44,375 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:28:45,590 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:28:45] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:28:45,602 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:28:45] "GET /api/countries HTTP/1.1" 200 -
+2025-03-04 18:28:46,877 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:28:47,119 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:28:48,192 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:28:48,408 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:28:48,414 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:28:48,415 - __main__ - INFO - CSV download completed.
+2025-03-04 18:28:58,497 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:28:58] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:28:59,994 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:28:59] "GET /api/csv/equities.csv HTTP/1.1" 200 -
+2025-03-04 18:29:11,854 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:29:11] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:29:12,080 - __main__ - INFO - Fetching data for 000002.SZ
+2025-03-04 18:29:15,388 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:29:15] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:29:16,656 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:29:16] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:29:18,513 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:29:18] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:29:20,174 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:29:20] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:29:25,892 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:29:25] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:29:53,687 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:29:53,692 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:29:54,796 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:29:54,937 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:29:55,527 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:29:55,673 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:29:55,679 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:29:55,682 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:29:55,739 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 18:29:55,739 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 18:29:55,778 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 18:30:04,091 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:30:04,095 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:30:06,262 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:30:06,512 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:30:07,697 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:30:07,951 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:30:07,961 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:30:07,962 - __main__ - INFO - CSV download completed.
+2025-03-04 18:30:12,445 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:30:12,457 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:30:14,764 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:30:14,990 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:30:16,122 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:30:16,348 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:30:16,356 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:30:16,358 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 18:30:16,382 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 18:30:16,390 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 18:30:16,452 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:30:16] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:30:16,494 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:30:16] "GET /api/countries HTTP/1.1" 200 -
+2025-03-04 18:30:21,368 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:30:21] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:30:21,409 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:30:21] "GET /api/csv/cryptos.csv?country=United%20States HTTP/1.1" 200 -
+2025-03-04 18:30:27,810 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 18:30:27,822 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 18:30:28,489 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:30:28] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:30:28,518 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:30:28] "[33mGET /api/csv/equities.csv?country=United%20States HTTP/1.1[0m" 404 -
+2025-03-04 18:30:30,242 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 18:30:30,460 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 18:30:31,376 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 18:30:31,574 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 18:30:31,580 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 18:30:31,580 - __main__ - INFO - CSV download completed.
+2025-03-04 18:30:47,148 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:30:47] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:30:53,263 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:30:53] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:00,387 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:00] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:03,838 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:03] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:07,056 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:07] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:07,117 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:07] "GET /api/csv/equities.csv?country=India HTTP/1.1" 200 -
+2025-03-04 18:31:10,987 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:10] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:16,297 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:16] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:16,993 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:16] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:17,039 - __main__ - INFO - Fetching data for RELIANCE.NS
+2025-03-04 18:31:22,270 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:22] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:31:24,607 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:24] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:31:29,212 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:29] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:29,262 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:29] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:31:47,095 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:47] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:47,135 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:47] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:31:55,782 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:55] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:31:55,825 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:55] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:31:55,927 - __main__ - INFO - Fetching data for RELIANCE.NS
+2025-03-04 18:31:56,098 - __main__ - ERROR - Anomaly detection error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 517, in anomaly_detection
+    return jsonify(anomalies)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-03-04 18:31:56,110 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:31:56] "[35m[1mPOST /api/anomaly_detection HTTP/1.1[0m" 500 -
+2025-03-04 18:32:09,879 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:09] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:32:09,919 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:09] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:32:11,414 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:11] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:32:11,446 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:11] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:32:11,621 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:11] "POST /api/personal_advice HTTP/1.1" 200 -
+2025-03-04 18:32:23,864 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:23] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:32:23,886 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:23] "GET /api/csv/equities.csv?country=Afghanistan HTTP/1.1" 200 -
+2025-03-04 18:32:23,910 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:23] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:32:27,294 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:27] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:32:27,317 - __main__ - INFO - Fetching data for MZN.V
+2025-03-04 18:32:30,575 - yfinance - ERROR - $MZN.V: possibly delisted; no timezone found
+2025-03-04 18:32:34,582 - __main__ - INFO - Fetching data for MZN.V
+2025-03-04 18:32:34,583 - yfinance - ERROR - $MZN.V: possibly delisted; no timezone found
+2025-03-04 18:32:38,595 - __main__ - INFO - Fetching data for MZN.V
+2025-03-04 18:32:38,596 - yfinance - ERROR - $MZN.V: possibly delisted; no timezone found
+2025-03-04 18:32:38,597 - __main__ - ERROR - Train model error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 104, in fetch_ticker_data
+    raise ValueError(f"No data available for {symbol}")
+ValueError: No data available for MZN.V
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 407, in train_model
+    history = fetch_ticker_data(symbol)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x236cbb2e830 state=finished raised ValueError>]
+2025-03-04 18:32:38,604 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:38] "[35m[1mPOST /api/train_model HTTP/1.1[0m" 500 -
+2025-03-04 18:32:38,635 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:38] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:32:46,806 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:46] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:32:46,835 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:46] "GET /api/csv/equities.csv?country=Argentina HTTP/1.1" 200 -
+2025-03-04 18:32:46,864 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:46] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:32:48,735 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:48] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:32:48,753 - __main__ - INFO - Fetching data for 0TVQ.L
+2025-03-04 18:32:49,374 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:49] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:32:50,269 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:32:50] "GET /static/plots/0TVQ.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:00,050 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:00] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:00,093 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:00] "GET /static/plots/0TVQ.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:00,161 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:00] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:33:09,988 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:09] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:10,033 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:10] "GET /static/plots/0TVQ.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:19,304 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:19] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:19,338 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:19] "GET /static/plots/0TVQ.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:23,662 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:23] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:23,821 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:23] "GET /static/plots/0TVQ.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:28,132 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:28] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:28,162 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:28] "GET /api/csv/equities.csv?country=Austria HTTP/1.1" 200 -
+2025-03-04 18:33:28,239 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:28] "GET /static/plots/0TVQ.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:30,747 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:30] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:30,767 - __main__ - INFO - Fetching data for 0B2.F
+2025-03-04 18:33:32,020 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:32] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:33:32,768 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:32] "GET /static/plots/0B2.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:42,267 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:42] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:42,366 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:42] "GET /static/plots/0B2.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:42,497 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:42] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:33:53,956 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:53] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:54,030 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:54] "GET /api/csv/equities.csv?country=Azerbaijan HTTP/1.1" 200 -
+2025-03-04 18:33:54,091 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:54] "GET /static/plots/0B2.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:33:58,439 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:33:58] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:33:58,474 - __main__ - INFO - Fetching data for A4A.SG
+2025-03-04 18:34:04,012 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:04] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:34:05,231 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:05] "GET /static/plots/A4A.SG_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:07,406 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:07] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:07,469 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:07] "GET /static/plots/A4A.SG_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:07,700 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:07] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:34:13,942 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:13] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:14,093 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:14] "GET /static/plots/A4A.SG_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:24,521 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:24] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:24,582 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:24] "GET /api/csv/equities.csv?country=Bahamas HTTP/1.1" 200 -
+2025-03-04 18:34:24,654 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:24] "GET /static/plots/A4A.SG_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:25,880 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:25] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:25,927 - __main__ - INFO - Fetching data for GEECF
+2025-03-04 18:34:30,709 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:30] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:34:31,882 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:31] "GET /static/plots/GEECF_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:36,216 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:36] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:36,281 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:36] "GET /static/plots/GEECF_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:45,322 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:45] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:45,392 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:45] "GET /api/csv/equities.csv?country=Bangladesh HTTP/1.1" 200 -
+2025-03-04 18:34:45,443 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:45] "GET /static/plots/GEECF_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:46,799 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:46] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:46,846 - __main__ - INFO - Fetching data for BXP.L
+2025-03-04 18:34:50,343 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:50] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:34:51,531 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:51] "GET /static/plots/BXP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:53,794 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:53] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:53,883 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:53] "GET /static/plots/BXP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:58,075 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:58] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:34:58,151 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:58] "GET /static/plots/BXP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:34:58,269 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:34:58] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:35:04,857 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:04] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:04,917 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:04] "GET /api/csv/equities.csv?country=Barbados HTTP/1.1" 200 -
+2025-03-04 18:35:04,972 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:04] "GET /static/plots/BXP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:35:06,000 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:06] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:06,039 - __main__ - INFO - Fetching data for EGINF
+2025-03-04 18:35:07,944 - yfinance - ERROR - $EGINF: possibly delisted; no timezone found
+2025-03-04 18:35:11,964 - __main__ - INFO - Fetching data for EGINF
+2025-03-04 18:35:11,967 - yfinance - ERROR - $EGINF: possibly delisted; no timezone found
+2025-03-04 18:35:15,992 - __main__ - INFO - Fetching data for EGINF
+2025-03-04 18:35:15,996 - yfinance - ERROR - $EGINF: possibly delisted; no timezone found
+2025-03-04 18:35:15,997 - __main__ - ERROR - Train model error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 104, in fetch_ticker_data
+    raise ValueError(f"No data available for {symbol}")
+ValueError: No data available for EGINF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 407, in train_model
+    history = fetch_ticker_data(symbol)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x236c3b7fe80 state=finished raised ValueError>]
+2025-03-04 18:35:16,000 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:16] "[35m[1mPOST /api/train_model HTTP/1.1[0m" 500 -
+2025-03-04 18:35:16,082 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:16] "GET /static/plots/BXP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:35:23,671 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:23] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:23,759 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:23] "GET /static/plots/BXP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:35:24,611 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:24] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:24,657 - __main__ - INFO - Fetching data for EI.CN
+2025-03-04 18:35:26,204 - yfinance - ERROR - $EI.CN: possibly delisted; no timezone found
+2025-03-04 18:35:30,216 - __main__ - INFO - Fetching data for EI.CN
+2025-03-04 18:35:30,220 - yfinance - ERROR - $EI.CN: possibly delisted; no timezone found
+2025-03-04 18:35:34,234 - __main__ - INFO - Fetching data for EI.CN
+2025-03-04 18:35:34,237 - yfinance - ERROR - $EI.CN: possibly delisted; no timezone found
+2025-03-04 18:35:34,237 - __main__ - ERROR - Train model error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 104, in fetch_ticker_data
+    raise ValueError(f"No data available for {symbol}")
+ValueError: No data available for EI.CN
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 407, in train_model
+    history = fetch_ticker_data(symbol)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x236cbfcdbd0 state=finished raised ValueError>]
+2025-03-04 18:35:34,243 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:34] "[35m[1mPOST /api/train_model HTTP/1.1[0m" 500 -
+2025-03-04 18:35:34,317 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:34] "GET /static/plots/BXP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:35:38,654 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:38] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:38,724 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:38] "GET /static/plots/BXP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:35:40,568 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:40] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:40,607 - __main__ - INFO - Fetching data for SFC.TO
+2025-03-04 18:35:41,815 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:41] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:35:43,073 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:43] "GET /static/plots/SFC.TO_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:35:47,712 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:47] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:47,803 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:47] "GET /static/plots/SFC.TO_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:35:47,921 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:47] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:35:50,801 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:50] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:50,877 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:50] "GET /static/plots/SFC.TO_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:35:59,069 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:59] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:35:59,140 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:35:59] "GET /static/plots/SFC.TO_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:00,841 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:00] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:00,889 - __main__ - INFO - Fetching data for SGCFF
+2025-03-04 18:36:01,857 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:01] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:36:03,001 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:03] "GET /static/plots/SGCFF_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:05,915 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:05] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:05,985 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:05] "GET /api/csv/equities.csv?country=Belgium HTTP/1.1" 200 -
+2025-03-04 18:36:06,055 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:06] "GET /static/plots/SGCFF_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:08,450 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:08] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:08,503 - __main__ - INFO - Fetching data for 06MA.F
+2025-03-04 18:36:11,506 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:11] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:36:12,731 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:12] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:16,034 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:16] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:16,120 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:16] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:20,138 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:20] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:20,226 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:20] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:20,344 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:20] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:36:25,829 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:25] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:25,888 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:25] "GET /api/csv/equities.csv?country=Belize HTTP/1.1" 200 -
+2025-03-04 18:36:25,954 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:25] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:27,219 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:27] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:27,265 - __main__ - INFO - Fetching data for BCBHF
+2025-03-04 18:36:29,969 - yfinance - ERROR - $BCBHF: possibly delisted; no timezone found
+2025-03-04 18:36:33,987 - __main__ - INFO - Fetching data for BCBHF
+2025-03-04 18:36:33,987 - yfinance - ERROR - $BCBHF: possibly delisted; no timezone found
+2025-03-04 18:36:38,013 - __main__ - INFO - Fetching data for BCBHF
+2025-03-04 18:36:38,013 - yfinance - ERROR - $BCBHF: possibly delisted; no timezone found
+2025-03-04 18:36:38,013 - __main__ - ERROR - Train model error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 104, in fetch_ticker_data
+    raise ValueError(f"No data available for {symbol}")
+ValueError: No data available for BCBHF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 407, in train_model
+    history = fetch_ticker_data(symbol)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x236cc8e1fc0 state=finished raised ValueError>]
+2025-03-04 18:36:38,013 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:38] "[35m[1mPOST /api/train_model HTTP/1.1[0m" 500 -
+2025-03-04 18:36:38,079 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:38] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:40,555 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:40] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:40,637 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:40] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:40,761 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:40] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:36:46,593 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:46] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:46,681 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:46] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:36:47,551 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:47] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:36:47,590 - __main__ - INFO - Fetching data for CIHL.L
+2025-03-04 18:36:50,104 - yfinance - ERROR - $CIHL.L: possibly delisted; no timezone found
+2025-03-04 18:36:54,131 - __main__ - INFO - Fetching data for CIHL.L
+2025-03-04 18:36:54,136 - yfinance - ERROR - $CIHL.L: possibly delisted; no timezone found
+2025-03-04 18:36:58,146 - __main__ - INFO - Fetching data for CIHL.L
+2025-03-04 18:36:58,150 - yfinance - ERROR - $CIHL.L: possibly delisted; no timezone found
+2025-03-04 18:36:58,151 - __main__ - ERROR - Train model error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 104, in fetch_ticker_data
+    raise ValueError(f"No data available for {symbol}")
+ValueError: No data available for CIHL.L
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 407, in train_model
+    history = fetch_ticker_data(symbol)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x236cd3d8220 state=finished raised ValueError>]
+2025-03-04 18:36:58,154 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:58] "[35m[1mPOST /api/train_model HTTP/1.1[0m" 500 -
+2025-03-04 18:36:58,213 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:36:58] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:07,592 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:07] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:07,677 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:07] "GET /api/csv/equities.csv?country=Bermuda HTTP/1.1" 200 -
+2025-03-04 18:37:07,756 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:07] "GET /static/plots/06MA.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:09,301 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:09] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:09,351 - __main__ - INFO - Fetching data for 0A6M.L
+2025-03-04 18:37:10,267 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:10] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:37:11,573 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:11] "GET /static/plots/0A6M.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:14,276 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:14] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:14,348 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:14] "GET /static/plots/0A6M.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:27,972 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:27] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:28,076 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:28] "GET /static/plots/0A6M.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:28,253 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:28] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:37:34,769 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:34] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:34,831 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:34] "GET /api/csv/equities.csv?country=Botswana HTTP/1.1" 200 -
+2025-03-04 18:37:34,897 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:34] "GET /static/plots/0A6M.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:37,113 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:37] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:37,163 - __main__ - INFO - Fetching data for CHP.JO
+2025-03-04 18:37:38,967 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:38] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:37:40,159 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:40] "GET /static/plots/CHP.JO_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:44,117 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:44] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:44,185 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:44] "GET /static/plots/CHP.JO_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:44,317 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:44] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:37:47,717 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:47] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:47,785 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:47] "GET /static/plots/CHP.JO_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:55,662 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:55] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:55,820 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:55] "GET /api/csv/equities.csv?country=Brazil HTTP/1.1" 200 -
+2025-03-04 18:37:55,930 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:55] "GET /static/plots/CHP.JO_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:37:57,382 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:57] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:37:57,427 - __main__ - INFO - Fetching data for 0A6X.L
+2025-03-04 18:37:58,643 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:58] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:37:59,891 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:37:59] "GET /static/plots/0A6X.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:01,382 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:01] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:01,462 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:01] "GET /static/plots/0A6X.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:07,638 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:07] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:07,712 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:07] "GET /static/plots/0A6X.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:07,877 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:07] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:38:18,607 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:18] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:18,670 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:18] "GET /api/csv/equities.csv?country=British%20Virgin%20Islands HTTP/1.1" 200 -
+2025-03-04 18:38:18,737 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:18] "GET /static/plots/0A6X.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:20,339 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:20] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:20,384 - __main__ - INFO - Fetching data for 09D.F
+2025-03-04 18:38:21,787 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:21] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:38:22,967 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:22] "GET /static/plots/09D.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:26,097 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:26] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:26,186 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:26] "GET /static/plots/09D.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:29,747 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:29] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:29,819 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:29] "GET /static/plots/09D.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:29,951 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:29] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:38:34,129 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:34] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:34,491 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:34] "GET /static/plots/09D.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:42,581 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:42] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:42,654 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:42] "GET /api/csv/equities.csv?country=Peru HTTP/1.1" 200 -
+2025-03-04 18:38:42,719 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:42] "GET /static/plots/09D.F_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:38:45,237 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:45] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:38:45,273 - __main__ - INFO - Fetching data for 0U8N.L
+2025-03-04 18:38:46,522 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:46] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:38:47,717 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:38:47] "GET /static/plots/0U8N.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:03,561 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:03] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:03,905 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:03] "GET /static/plots/0U8N.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:06,041 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:06] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:06,152 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:06] "GET /api/csv/equities.csv?country=Russia HTTP/1.1" 200 -
+2025-03-04 18:39:06,217 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:06] "GET /static/plots/0U8N.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:14,707 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:14] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:14,787 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:14] "GET /static/plots/0U8N.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:18,631 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:18] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:18,723 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:18] "GET /static/plots/0U8N.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:19,668 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:19] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:19,721 - __main__ - INFO - Fetching data for ZVEZ.ME
+2025-03-04 18:39:21,667 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:21] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:39:22,980 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:22] "GET /static/plots/ZVEZ.ME_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:28,158 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:28] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:28,262 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:28] "GET /static/plots/ZVEZ.ME_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:28,371 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:28] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:39:31,498 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:31] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:31,592 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:31] "GET /static/plots/ZVEZ.ME_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:44,790 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:44] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:44,877 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:44] "GET /api/csv/equities.csv?country=Chile HTTP/1.1" 200 -
+2025-03-04 18:39:44,946 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:44] "GET /static/plots/ZVEZ.ME_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:39:47,833 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:47] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:39:47,883 - __main__ - INFO - Fetching data for AESGENER.SN
+2025-03-04 18:39:49,707 - yfinance - ERROR - $AESGENER.SN: possibly delisted; no timezone found
+2025-03-04 18:39:53,722 - __main__ - INFO - Fetching data for AESGENER.SN
+2025-03-04 18:39:53,726 - yfinance - ERROR - $AESGENER.SN: possibly delisted; no timezone found
+2025-03-04 18:39:57,743 - __main__ - INFO - Fetching data for AESGENER.SN
+2025-03-04 18:39:57,743 - yfinance - ERROR - $AESGENER.SN: possibly delisted; no timezone found
+2025-03-04 18:39:57,743 - __main__ - ERROR - Train model error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 104, in fetch_ticker_data
+    raise ValueError(f"No data available for {symbol}")
+ValueError: No data available for AESGENER.SN
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 407, in train_model
+    history = fetch_ticker_data(symbol)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x236b02041c0 state=finished raised ValueError>]
+2025-03-04 18:39:57,743 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:57] "[35m[1mPOST /api/train_model HTTP/1.1[0m" 500 -
+2025-03-04 18:39:57,827 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:39:57] "GET /static/plots/ZVEZ.ME_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:03,567 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:03] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:03,631 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:03] "GET /static/plots/ZVEZ.ME_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:05,352 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:05] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:05,397 - __main__ - INFO - Fetching data for AKO/A
+2025-03-04 18:40:07,001 - yfinance - ERROR - Failed to get ticker 'AKO/A' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 18:40:07,001 - yfinance - ERROR - $AKO/A: possibly delisted; no timezone found
+2025-03-04 18:40:11,012 - __main__ - INFO - Fetching data for AKO/A
+2025-03-04 18:40:11,016 - yfinance - ERROR - Failed to get ticker 'AKO/A' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 18:40:11,017 - yfinance - ERROR - $AKO/A: possibly delisted; no timezone found
+2025-03-04 18:40:15,027 - __main__ - INFO - Fetching data for AKO/A
+2025-03-04 18:40:15,027 - yfinance - ERROR - Failed to get ticker 'AKO/A' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 18:40:15,027 - yfinance - ERROR - $AKO/A: possibly delisted; no timezone found
+2025-03-04 18:40:15,036 - __main__ - ERROR - Train model error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 104, in fetch_ticker_data
+    raise ValueError(f"No data available for {symbol}")
+ValueError: No data available for AKO/A
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 407, in train_model
+    history = fetch_ticker_data(symbol)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x236cbaf2500 state=finished raised ValueError>]
+2025-03-04 18:40:15,038 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:15] "[35m[1mPOST /api/train_model HTTP/1.1[0m" 500 -
+2025-03-04 18:40:15,131 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:15] "GET /static/plots/ZVEZ.ME_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:18,811 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:18] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:18,897 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:18] "GET /static/plots/ZVEZ.ME_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:20,632 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:20] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:20,682 - __main__ - INFO - Fetching data for BESALCO.SN
+2025-03-04 18:40:23,211 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:23] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:40:24,478 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:24] "GET /static/plots/BESALCO.SN_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:26,310 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:26] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:26,399 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:26] "GET /static/plots/BESALCO.SN_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:29,989 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:29] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:30,057 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:30] "GET /static/plots/BESALCO.SN_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:30,187 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:30] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:40:37,008 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:37] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:37,071 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:37] "GET /api/csv/equities.csv?country=Colombia HTTP/1.1" 200 -
+2025-03-04 18:40:37,124 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:37] "GET /static/plots/BESALCO.SN_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:42,661 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:42] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:42,917 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:42] "GET /api/csv/equities.csv?country=China HTTP/1.1" 200 -
+2025-03-04 18:40:43,549 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:43] "GET /static/plots/BESALCO.SN_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:48,519 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:48] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:48,572 - __main__ - INFO - Fetching data for 000002.SZ
+2025-03-04 18:40:53,309 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:53] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:40:54,706 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:54] "GET /static/plots/000002.SZ_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:56,087 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:56] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:56,169 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:56] "GET /static/plots/000002.SZ_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:40:56,342 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:56] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:40:59,308 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:59] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:40:59,417 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:40:59] "GET /static/plots/000002.SZ_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:41:10,789 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:10] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:41:10,877 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:10] "GET /static/plots/000002.SZ_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:41:12,457 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:12] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:41:12,506 - __main__ - INFO - Fetching data for 0MDP.L
+2025-03-04 18:41:14,869 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:14] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:41:16,107 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:16] "GET /static/plots/0MDP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:41:18,337 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:18] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:41:18,433 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:18] "GET /static/plots/0MDP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:41:23,517 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:23] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:41:23,592 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:23] "GET /static/plots/0MDP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:41:23,715 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:23] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 18:41:46,257 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:46] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:41:46,653 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:46] "GET /static/plots/0MDP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:41:53,577 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:41:53] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:42:19,294 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:42:19] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:42:19,363 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:42:19] "GET /api/csv/equities.csv?country=Georgia HTTP/1.1" 200 -
+2025-03-04 18:42:19,471 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:42:19] "GET /static/plots/0MDP.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 18:42:22,907 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:42:22] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 18:42:22,943 - __main__ - INFO - Fetching data for CGEO.L
+2025-03-04 18:42:24,947 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:42:24] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 18:42:26,561 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 18:42:26] "GET /static/plots/CGEO.L_forecast.html HTTP/1.1" 200 -
+2025-03-04 21:02:26,712 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\OneDrive\\Desktop\\test2\\front.py', reloading
+2025-03-04 22:03:19,175 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 22:06:07,559 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:06:07,566 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:06:08,793 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:06:08,949 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:06:09,672 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:06:09,854 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:06:09,870 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:06:09,870 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 22:06:09,937 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-04 22:06:09,937 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 22:06:09,978 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 22:06:24,912 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:06:24,935 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:06:28,278 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:06:28,643 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:06:30,228 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:06:30,605 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:06:30,621 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:06:30,621 - __main__ - INFO - CSV download completed.
+2025-03-04 22:06:35,365 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:06:35,383 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:06:38,965 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:06:39,336 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:06:40,944 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:06:41,315 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:06:41,331 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:06:41,339 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 22:06:41,371 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 22:06:41,400 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 22:06:41,523 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:41] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:06:41,615 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:41] "GET /api/countries HTTP/1.1" 200 -
+2025-03-04 22:06:41,683 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:41] "GET /api/csv/cryptos.csv HTTP/1.1" 200 -
+2025-03-04 22:06:51,860 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:51] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:06:51,918 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:51] "GET /api/csv/cryptos.csv?country=India HTTP/1.1" 200 -
+2025-03-04 22:06:55,037 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:55] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:06:55,175 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:55] "GET /api/csv/equities.csv?country=India HTTP/1.1" 200 -
+2025-03-04 22:06:57,229 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:57] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:06:59,713 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:06:59] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:07:02,611 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:07:02] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:07:10,907 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:07:10,929 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:07:14,205 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:07:14,610 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:07:14,971 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:07:14] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:07:16,133 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:07:16,452 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:07:16] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:07:16,473 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:07:16,485 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:07:16,485 - __main__ - INFO - CSV download completed.
+2025-03-04 22:07:16,490 - __main__ - INFO - Fetching data for RELIANCE.NS
+2025-03-04 22:07:31,217 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:07:31] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 22:07:34,395 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:07:34] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:08:08,339 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:08] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:08:08,421 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:08] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:08:08,581 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:08] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 22:08:23,045 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:23] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:08:23,120 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:23] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:08:23,288 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:23] "POST /api/optimize_portfolio HTTP/1.1" 200 -
+2025-03-04 22:08:41,035 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:41] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:08:41,126 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:41] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:08:41,492 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:41] "POST /api/personal_advice HTTP/1.1" 200 -
+2025-03-04 22:08:58,367 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:58] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:08:58,450 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:58] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:08:58,641 - __main__ - INFO - Fetching data for RELIANCE.NS
+2025-03-04 22:08:58,945 - __main__ - ERROR - Anomaly detection error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 517, in anomaly_detection
+    return jsonify(anomalies)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-03-04 22:08:58,987 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-03-04 22:08:59,125 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:08:59] "[35m[1mPOST /api/anomaly_detection HTTP/1.1[0m" 500 -
+2025-03-04 22:08:59,125 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\json\\provider.py', reloading
+2025-03-04 22:08:59,131 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\json\\__init__.py', reloading
+2025-03-04 22:08:59,133 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\json\\encoder.py', reloading
+2025-03-04 22:09:00,751 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 22:09:26,876 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:09:26,898 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:09:30,352 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:09:30,629 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:09:31,205 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:09:31,396 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:09:31,396 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:09:31,396 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 22:09:31,419 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 22:09:31,427 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 22:09:31,471 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:09:31] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:09:31,476 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:09:31] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:10:04,237 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:10:04,237 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:10:05,442 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:10:05,609 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:10:06,409 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:10:06,539 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:10:06,553 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:10:06,553 - __main__ - INFO - CSV download completed.
+2025-03-04 22:12:22,629 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\streamlit\\__init__.py', reloading
+2025-03-04 22:12:23,013 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\streamlit\\delta_generator_singletons.py', reloading
+2025-03-04 22:12:23,832 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 22:13:10,481 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:13:10,491 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:13:11,688 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:13:11,847 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:13:12,412 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:13:12,572 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:13:12,576 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:13:12,578 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 22:13:12,601 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 22:13:12,604 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 22:13:12,649 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:12] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:13:12,663 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:12] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:13:19,088 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:19] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:13:19,142 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:19] "GET /api/countries HTTP/1.1" 200 -
+2025-03-04 22:13:24,785 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:24] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:13:24,823 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:13:24,840 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:13:26,476 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:26] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:13:28,189 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:13:28,575 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:13:30,135 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:13:30,477 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:13:30,493 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:13:30,497 - __main__ - INFO - CSV download completed.
+2025-03-04 22:13:32,591 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:32] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:13:33,588 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:33] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:13:33,641 - __main__ - INFO - Fetching data for RELIANCE.NS
+2025-03-04 22:13:45,425 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:45] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 22:13:48,664 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:13:48] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:14:02,729 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:02] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:14:02,795 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:02] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:14:02,985 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:02] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 22:14:06,112 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:06] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:14:06,188 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:06] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:14:06,367 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:06] "POST /api/optimize_portfolio HTTP/1.1" 200 -
+2025-03-04 22:14:09,342 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:09] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:14:09,421 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:09] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:14:09,853 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:09] "POST /api/personal_advice HTTP/1.1" 200 -
+2025-03-04 22:14:13,371 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:13] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:14:13,446 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:13] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:14:13,627 - __main__ - INFO - Fetching data for RELIANCE.NS
+2025-03-04 22:14:13,827 - __main__ - ERROR - Anomaly detection error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 517, in anomaly_detection
+    return jsonify(anomalies)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-03-04 22:14:13,837 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:13] "[35m[1mPOST /api/anomaly_detection HTTP/1.1[0m" 500 -
+2025-03-04 22:14:19,614 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:19] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:14:19,706 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:14:19] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:14:20,569 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\streamlit\\dataframe_util.py', reloading
+2025-03-04 22:14:20,622 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\pyarrow\\pandas_compat.py', reloading
+2025-03-04 22:14:22,349 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 22:15:03,499 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:15:03,508 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:15:05,012 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:15:05,142 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:15:05,762 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:15:05,916 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:15:05,924 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:15:05,924 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 22:15:05,964 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 22:15:05,968 - werkzeug - INFO -  * Debugger PIN: 270-785-718
+2025-03-04 22:15:06,046 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:06] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:06,046 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:06] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:08,422 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:08] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:14,365 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:14] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:21,913 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:21] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:25,249 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:25] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:28,041 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:28] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:29,042 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:15:29,058 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:15:32,356 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:32] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:32,362 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:15:32,698 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:15:34,296 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:15:34,641 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:15:34,648 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:15:34,648 - __main__ - INFO - CSV download completed.
+2025-03-04 22:15:34,929 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:34] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:34,975 - __main__ - INFO - Fetching data for RELIANCE.NS
+2025-03-04 22:15:41,988 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:41] "POST /api/train_model HTTP/1.1" 200 -
+2025-03-04 22:15:43,545 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:43] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:15:55,581 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:55] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:55,656 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:55] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:15:55,824 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:55] "POST /api/arbitrage HTTP/1.1" 200 -
+2025-03-04 22:15:59,352 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:59] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:15:59,430 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:15:59] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:16:17,463 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:16:17] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:16:17,551 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:16:17] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:16:32,334 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:16:32] "GET /api/health HTTP/1.1" 200 -
+2025-03-04 22:16:32,416 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:16:32] "GET /static/plots/RELIANCE.NS_forecast.html HTTP/1.1" 200 -
+2025-03-04 22:16:32,626 - __main__ - INFO - Fetching data for RELIANCE.NS
+2025-03-04 22:16:32,842 - __main__ - ERROR - Anomaly detection error
+Traceback (most recent call last):
+  File "C:\Users\Aryan Mejari\OneDrive\Desktop\test2\back.py", line 517, in anomaly_detection
+    return jsonify(anomalies)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\Aryan Mejari\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-03-04 22:16:32,846 - werkzeug - INFO - 127.0.0.1 - - [04/Mar/2025 22:16:32] "[35m[1mPOST /api/anomaly_detection HTTP/1.1[0m" 500 -
+2025-03-04 22:18:25,866 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Aryan Mejari\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\yfinance\\__init__.py', reloading
+2025-03-04 22:18:26,970 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-03-04 22:18:44,997 - __main__ - INFO - Loaded cryptos.csv with 3367 rows.
+2025-03-04 22:18:44,997 - __main__ - INFO - Loaded currencies.csv with 2556 rows.
+2025-03-04 22:18:46,169 - __main__ - INFO - Loaded equities.csv with 159581 rows.
+2025-03-04 22:18:46,296 - __main__ - INFO - Loaded etfs.csv with 36786 rows.
+2025-03-04 22:18:46,944 - __main__ - INFO - Loaded funds.csv with 57881 rows.
+2025-03-04 22:18:47,293 - __main__ - INFO - Loaded indices.csv with 91183 rows.
+2025-03-04 22:18:47,308 - __main__ - INFO - Loaded moneymarkets.csv with 1367 rows.
+2025-03-04 22:18:47,308 - __main__ - INFO - Starting periodic CSV download...
+2025-03-04 22:18:47,352 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 22:18:47,356 - werkzeug - INFO -  * Debugger PIN: 270-785-718
